@@ -2,7 +2,7 @@ body {
     font-family: 'Arial, sans-serif';
     margin: 0;
     padding: 0;
-    background:#fff ;
+    background:#a6bba8b2 ;
     color: #333;
 }
 
@@ -40,7 +40,7 @@ main {
 }
 
 section {
-    background: #fff;
+    background: #f8fff6;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
@@ -78,6 +78,27 @@ table th {
    max-width: 500px;
    margin: auto; 
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+video {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+video:hover{
+    transform: scale(1.1);
+}
+
+
+
 
 .gallery-item {
     width: 400px;
